@@ -3,7 +3,7 @@
 
 # 使用方法
 ```go
-import "github.com/gangaoh/nacos"
+import "github.com/gangaoh/go-nacos"
 
 # 读取配置并监听
 nacos.GetString("test2", "test.group", func(data *string, err error) {
